@@ -1,0 +1,13 @@
+<?php namespace {{AppNameSpace}}Modules\{{ModuleName}}\Repository;
+
+use {{AppNameSpace}}Modules\{{ModuleName}}\Repository\Contract\{{ModuleName}}RepositoryInterface;
+use {{AppNameSpace}}Generics\GenericRepository;
+use {{AppNameSpace}}Models\{{ModelName}};
+
+class  {{ModuleName}}Repository extends GenericRepository implements {{ModuleName}}RepositoryInterface
+{
+	function __construct( {{ModelName}} $model )
+	{
+		$this->model = $model;
+	}
+}

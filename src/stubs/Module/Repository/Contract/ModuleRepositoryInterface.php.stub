@@ -1,0 +1,3 @@
+<?php namespace {{AppNameSpace}}Modules\{{ModuleName}}\Repository\Contract;
+
+interface {{ModuleName}}RepositoryInterface {}

@@ -1,0 +1,5 @@
+<?php namespace {{AppNameSpace}}Modules\{{ModuleName}}\Service\Contract;
+
+use App\Builders\QueryBuilder;
+
+interface {{ModuleName}}ServiceInterface {}

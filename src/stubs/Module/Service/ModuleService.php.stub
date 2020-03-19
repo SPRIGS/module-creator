@@ -1,0 +1,19 @@
+<?php namespace {{AppNameSpace}}Modules\{{ModuleName}}\Service;
+
+
+use {{AppNameSpace}}Generics\GenericService;
+use {{AppNameSpace}}Modules\{{ModuleName}}\Service\Contract\{{ModuleName}}ServiceInterface;
+
+
+class {{ModuleName}}Service extends GenericService implements {{ModuleName}}ServiceInterface
+{
+	/**
+	 * @param {{ModuleName}}ServiceInterface $service
+	 */
+	function __construct( {{ModuleName}}ServiceInterface $service )
+	{
+		parent::__construct();
+		$this->service = $service;
+	}
+
+}
