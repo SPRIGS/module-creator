@@ -3,9 +3,9 @@
 
 use {{AppNameSpace}}Generics\GenericService;
 use {{AppNameSpace}}Modules\{{ModuleName}}\Repository\Contract\{{ModuleName}}RepositoryInterface;
+use {{AppNameSpace}}Modules\{{ModuleName}}\Service\Contract\{{ModuleName}}ServiceInterface;
 
-
-class {{ModuleName}}Service extends GenericService implements {{ModuleName}}RepositoryInterface
+class {{ModuleName}}Service extends GenericService implements {{ModuleName}}ServiceInterface
 {
 	/**
 	 * @param {{ModuleName}}RepositoryInterface $repository
